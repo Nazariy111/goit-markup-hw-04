@@ -122,8 +122,13 @@ a {
     padding-bottom: 120px;
 }
 
-.banner {
+.banner-container {
     background: var(--NAVY-BLUE, #2E2F42);
+    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 188px 0;
 }
 
