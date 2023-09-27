@@ -235,7 +235,7 @@ a {
     padding: 32px 0;
 }
 
-.team-list-box {
+.team-icon-list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,12 +250,24 @@ a {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.team-list-icon {
-    fill: #000000;
+.team-icon-list-item,
+.webfooter-icon-list-item {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
 }
-.team-list-icon:hover {
-    fill: #404BBF;
+
+.team-icon-list-item:hover,
+.webfooter-icon-list-item:hover,
+.team-icon-list-item:focus,
+.webfooter-icon-list-item:focus {
+    background-color: #404BBF;
 }
+
 
 .team-title,
 .portfolio-title {
@@ -366,7 +378,10 @@ a {
     gap: 120px;
 }
 
-.webfooter-icon-box {
+.webfooter-icon-list {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 16px;
+
 }
