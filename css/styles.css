@@ -230,6 +230,8 @@ a {
     margin-bottom: 8px;
 }
 
+
+
 .features-list-item {
     width: calc((100% - 24px * 3) / 4);
 }
@@ -274,6 +276,7 @@ a {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    fill: #F4F4FD;
 }
 
 .team-icon-list-item:hover,
@@ -427,11 +430,13 @@ a {
     gap: 120px;
 }
 
+
 .webfooter-icon-list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
+    
 
 }
 
