@@ -93,12 +93,10 @@ a {
 .webheader-menu-link:active,
 .webheader-menu-link:hover,
 .webheader-menu-link:focus {
-    /* взагалы колор океан повинен стояти тут, але автоперевырка не пропускаэ чомусь */
+    /* взагалі колор океан повинен стояти тут, але автоперевірка не пропускає чомусь */
 }
 
-.webheader-menu-link:active::after,
-.webheader-menu-link:hover::after,
-.webheader-menu-link:focus::after {
+.webheader-menu-link::after {
     width: 100%;
     height: 4px;
     border-radius: 2px;
@@ -107,6 +105,13 @@ a {
     position: absolute;
     left: 0;
     bottom: -1px;
+    display: none;
+}
+
+.webheader-menu-link:active::after,
+.webheader-menu-link:hover::after,
+.webheader-menu-link:focus::after {
+    display: flex;
 }
 
 
