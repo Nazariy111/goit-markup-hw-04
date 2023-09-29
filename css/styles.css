@@ -75,7 +75,7 @@ a {
 
 
 .webheader-menu-link {
-    position: relative;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,13 +92,13 @@ a {
 .webheader-menu-link:active,
 .webheader-menu-link:hover,
 .webheader-menu-link:focus {
+    position: relative;
     color: var(--OCEAN, #404BBF);
 }
 
+.webheader-menu-link:active::after,
 .webheader-menu-link:hover::after,
-.webheader-menu-link:focus::after,
-.webheader-menu-link:active::after {
-    
+.webheader-menu-link:focus::after {
     width: 100%;
     height: 4px;
     border-radius: 2px;
