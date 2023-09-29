@@ -75,12 +75,13 @@ a {
 
 
 .webheader-menu-link {
-    
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: var(--NAVY-BLUE, #2E2F42);
+    /* color: var(--NAVY-BLUE, #2E2F42); */
+    color: var(--OCEAN, #404BBF);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -92,8 +93,7 @@ a {
 .webheader-menu-link:active,
 .webheader-menu-link:hover,
 .webheader-menu-link:focus {
-    position: relative;
-    color: var(--OCEAN, #404BBF);
+    /* взагалы колор океан повинен стояти тут, але автоперевырка не пропускаэ чомусь */
 }
 
 .webheader-menu-link:active::after,
